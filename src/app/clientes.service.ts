@@ -16,11 +16,11 @@ export class ClientesService {
       return this.http.post<Cliente>('http://localhost:8080/api/clientes', cliente);
     }
 
-    getCliente() : Cliente {
+   // getCliente() : Cliente {
 
-       let cliente : Cliente  = new Cliente();
-       cliente.nome = 'Fulano de Tal';
-       cliente.cpf = '888888888';
-       return cliente;
-    }
+      // let cliente : Cliente  = new Cliente();
+      // cliente.nome = 'Fulano de Tal';
+      // cliente.cpf = '888888888';
+      // return cliente;
+   // }
 }
